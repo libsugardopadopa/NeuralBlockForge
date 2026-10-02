@@ -8,7 +8,7 @@
 
 You can try it out right away at the link below!
 
-[**Experience NeuralBlockForge now**](https://kingyo1205.github.io/NeuralBlockForge/)
+[**Experience NeuralBlockForge now**](https://libsugardopadopa.github.io/NeuralBlockForge/)
 
 ## 🌟 Features
 
@@ -25,12 +25,12 @@ This project is licensed under the [MIT License](LICENSE).
 
 NeuralBlockForge relies on these open-source projects:
 
-| Library       | License            | Link |
-|---------------|--------------------|------|
-| TensorFlow.js | Apache License 2.0 | https://github.com/tensorflow/tfjs                  |
-| Blockly       | Apache License 2.0 | https://github.com/RaspberryPiFoundation/blockly    |
-| Chart.js      | MIT License        | https://github.com/chartjs/Chart.js                 |
-| Bootstrap     | MIT License        | https://github.com/twbs/bootstrap                   |
+| Library       | License            | Link                                             |
+| ------------- | ------------------ | ------------------------------------------------ |
+| TensorFlow.js | Apache License 2.0 | https://github.com/tensorflow/tfjs               |
+| Blockly       | Apache License 2.0 | https://github.com/RaspberryPiFoundation/blockly |
+| Chart.js      | MIT License        | https://github.com/chartjs/Chart.js              |
+| Bootstrap     | MIT License        | https://github.com/twbs/bootstrap                |
 
 
 ## AI Tools Used

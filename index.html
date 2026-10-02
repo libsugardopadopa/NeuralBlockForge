@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <nav class="navbar navbar-dark bg-dark">
@@ -17,11 +19,9 @@
                 NeuralBlockForge
             </a>
 
-            <a href="https://github.com/kingyo1205/NeuralBlockForge"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="text-info text-decoration-none small">
-            https://github.com/kingyo1205/NeuralBlockForge
+            <a href="https://github.com/libsugardopadopa/NeuralBlockForge" target="_blank" rel="noopener noreferrer"
+                class="text-info text-decoration-none small">
+                https://github.com/libsugardopadopa/NeuralBlockForge
             </a>
         </div>
     </nav>
@@ -41,10 +41,11 @@
                 <div class="card">
                     <div class="card-body">
                         <h5 class="card-title">Control Panel</h5>
-                        
+
                         <div class="mb-3">
                             <label for="dataset-folder-input" class="form-label">Dataset Folder</label>
-                            <input type="file" id="dataset-folder-input" class="form-control" webkitdirectory directory multiple>
+                            <input type="file" id="dataset-folder-input" class="form-control" webkitdirectory directory
+                                multiple>
                             <div class="form-text">Select the root folder of your dataset.</div>
                         </div>
 
@@ -81,9 +82,10 @@
                         <h5 class="card-title">Information</h5>
                         <p><strong>Status:</strong> <span id="status-span">Ready</span></p>
                         <div class="progress">
-                            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
+                            <div id="progress-bar" class="progress-bar" role="progressbar" style="width: 0%;"
+                                aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
                         </div>
-                        
+
                         <h6 class="mt-3">Loss Chart</h6>
                         <canvas id="loss-chart"></canvas>
                     </div>
@@ -97,7 +99,8 @@
                             <label for="inference-image-input" class="form-label">Image for Inference</label>
                             <input type="file" id="inference-image-input" class="form-control" accept="image/*">
                         </div>
-                        <img id="inference-image-preview" src="#" alt="Preview" class="img-fluid mb-2" style="display: none;">
+                        <img id="inference-image-preview" src="#" alt="Preview" class="img-fluid mb-2"
+                            style="display: none;">
                         <button id="infer-button" class="btn btn-info w-100">Predict</button>
                         <p class="mt-2"><strong>Prediction:</strong> <span id="prediction-result"></span></p>
                     </div>
@@ -111,14 +114,16 @@
     <script src="https://unpkg.com/blockly/javascript_compressed.js"></script>
     <!-- TensorFlow.js -->
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgpu@4.22.0/dist/tf-backend-webgpu.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@4.22.0/dist/tf-backend-wasm.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-webgpu@4.22.0/dist/tf-backend-webgpu.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-backend-wasm@4.22.0/dist/tf-backend-wasm.min.js"></script>
 
     <!-- Chart.js -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    
+
     <!-- Custom Scripts -->
     <xml id="toolbox" style="display: none">
         <!-- Toolbox will be defined here later -->
@@ -126,4 +131,5 @@
     <script src="blockly_blocks.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>
